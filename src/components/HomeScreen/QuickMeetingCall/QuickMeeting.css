@@ -1,0 +1,390 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Calibri" !important;
+  background-color: #1b1b1b;
+}
+
+input {
+  background-color: #ffffff33;
+  color: #fff;
+  border-radius: 25px;
+  margin-bottom: 3%;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn-primary {
+  background-color: #2572ed;
+}
+
+.btn-danger {
+  padding: 8px;
+  background-color: #c74e5b;
+}
+
+.quick-meeting {
+  display: flex;
+  overflow: hidden;
+}
+
+.event-header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: calc(100% - 20px);
+  padding: 10px 40px 12px 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  z-index: 2;
+  opacity: 0px;
+}
+
+.event-time-count {
+  /* width: 150px; */
+  top: 0.5rem;
+  right: 3rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  padding-top: 14px;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.conference-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: 89vh;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.chat-section {
+  border-radius: 25px;
+  background-color: #1b1b1b;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 0.5fr 8fr 1fr;
+  position: relative;
+  width: 328px;
+}
+
+.message-input {
+  position: fixed;
+  bottom: 1rem;
+  /* display: flex; */
+}
+
+.peers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  flex: 1;
+  border-radius: 6px !important;
+  background-color: #ffffff08;
+}
+
+.time-remaining {
+  width: calc(100% - 60px);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.peer-container {
+  background-color: #FFFFFF08;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.peer-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.video-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presenter-container {
+  flex: 1 0 80%;
+  background-color: #ffffff08;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.screen-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen-tile video,
+.presenter-container video,
+.peer-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.peer-name {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.stream {
+  position: absolute;
+  margin-left: 18px;
+  bottom: 0.9rem;
+  z-index: 98;
+  width: 64px;
+  height: 56px;
+  background: #17202e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #4b556380;
+  border-radius: 8px;
+}
+
+.control-bar {
+  display: flex;
+  position: absolute;
+  background: transparent;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  z-index: 200;
+}
+
+.hide {
+  display: none;
+}
+
+.separator {
+  font-size: 12px;
+}
+
+.center {
+  align-items: center;
+}
+
+.highlight {
+  background: #2e3038;
+}
+
+.next-button {
+  background: linear-gradient(to bottom, #01e5d4, #137aea);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  line-height: 2.75;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.quick-meeting-home {
+  width: 50%;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.toggle-container {
+  width: 66px;
+  height: 56px;
+  background: #17202e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4b556380;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.toggle-container.extra {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.more-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: transparent !important;
+}
+
+.popup {
+  width: 120px;
+  top: 0.5px;
+  position: absolute;
+  left: calc(100% - 220px);
+  background: #111111;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px 10px 15px;
+  z-index: 1000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.53px;
+  text-align: left;
+  border-radius: 12px;
+}
+
+.popup-items {
+  display: flex;
+  align-items: center;
+}
+
+.popup-items div {
+  margin-top: 5px;
+}
+
+.popup-items:not(:first-child) svg {
+  margin-right: 10px;
+}
+
+.popup-items:first-child svg {
+  margin-right: 9px;
+}
+
+.popup-items div {
+  flex-grow: 1;
+}
+
+.participant-item {
+  position: relative;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background: linear-gradient(to bottom, #01e5d4, #137aea);
+}
+
+input:checked+.slider:before {
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.speaker-options-menu {
+  top: -75px;
+  left: 140px;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-option {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.speaker-option:hover {
+  background-color: #f0f0f0;
+}
+
+.selectedVB {
+  border: 2px solid blue;
+}

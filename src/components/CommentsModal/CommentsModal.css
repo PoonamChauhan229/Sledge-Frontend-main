@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comments-modal-title {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.action-button-post {
+  display: flex;
+  align-items: center;
+  width: 53px;
+  height: 25px;
+  border-radius: 6px !important;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  color: #fff !important;
+  text-transform: none !important;
+}
+
+.action-button-more-comments {
+  border-radius: 12px !important;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  color: #fff !important;
+  text-transform: none;
+}
+
+.comment-box {
+  display: flex;
+  background-color: #1b1b1b;
+  padding: 5px 15px;
+  border-radius: 12px 12px 0 0;
+  align-items: center;
+}
+.btn-container {
+  margin-top: auto; /* Push the container to the bottom */
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-bottom: 5px;
+}
+
+.comment-input {
+  border: none !important;
+}
+
+.comment-input input {
+  width: 460px;
+  height: 60px;
+  border-radius: 12px 12px 0px 0px !important;
+  color: #fff;
+  background: #1b1b1b;
+  border: none !important;
+  outline: none;
+}
+
+.comment-input input:focus,
+.comment-input input:hover {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Additional rule to target the root of the TextField */
+.comment-input .MuiOutlinedInput-root {
+  border: none !important;
+}
+
+.comment-input .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.comment-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.comment-input
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.user-heading {
+  color: #137aea;
+  font-family: Calibri;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.65px;
+  text-align: left;
+}
+.comment-description {
+  font-family: Calibri;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16.3px;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.impression-button {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.8px;
+  text-align: left;
+  color: #137aea;
+}
+.hour {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.8px;
+  text-align: left;
+  color: #90949c;
+}

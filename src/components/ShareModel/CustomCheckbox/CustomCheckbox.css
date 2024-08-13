@@ -1,0 +1,22 @@
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #01e5d4;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-checkbox.checked {
+  border-color: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%) !important;
+}
+
+.custom-checkbox .checkmark {
+  margin-top: 5px;
+  color: white;
+  font-size: 14px;
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  margin: 30px;
+}
+
+.profile-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile,
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  justify-content: flex-start;
+  justify-items: left;
+}
+
+.profile-img-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 210px;
+  height: 210px;
+  overflow: 0hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.2);
+}
+
+.background img {
+  border-radius: 26px;
+  width: 800px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.user-profile-edit-button {
+  margin-top: 20px !important;
+  border: none !important;
+  width: 85px;
+  height: 45px;
+  color: #fff !important;
+  background: #262626 !important;
+  padding: 16px 22px 16px 22px;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}

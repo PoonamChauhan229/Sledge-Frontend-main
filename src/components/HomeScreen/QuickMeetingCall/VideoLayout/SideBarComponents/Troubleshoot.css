@@ -1,0 +1,98 @@
+.troubleshoot-container {
+  background-color: #1a1a1a;
+  padding: 16px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: none;
+  padding-top: 30px;
+}
+
+.troubleshoot-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-trouble {
+  height: 48px;
+  width: 100%;
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: 400;
+  background: #ffffff33;
+  color: #fff !important;
+  border-radius: 30px !important;
+  border: 1px solid #d7d5dd;
+}
+
+.form-group {
+  font-family: Calibri !important;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trouble-cancel-button {
+  width: 104px;
+  height: 48px;
+  padding: 14px 30px !important;
+  border-radius: 7992px !important;
+  border: 1px solid rgba(255, 255, 255, 0.52) !important;
+  text-transform: none !important;
+  color: rgba(255, 255, 255, 0.52) !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.browse-button {
+  width: 141px;
+  height: 48px;
+  padding: 14px, 30px, 14px, 30px;
+  border-radius: 7992px !important;
+  opacity: 0px;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 100%);
+  text-transform: none;
+  color: #fff !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  align-content: center;
+}
+
+.file-button {
+  width: 83px;
+  height: 48px;
+  padding: 14px 30px 14px 30px;
+  gap: 0px;
+  border-radius: 7992px !important;
+  opacity: 0px;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 100%);
+  color: #ffffff !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

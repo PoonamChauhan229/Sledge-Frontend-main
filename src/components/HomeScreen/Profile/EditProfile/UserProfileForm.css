@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.editform-container {
+  padding: 30px;
+  background: #1b1b1b;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.section-header {
+  font-family: Calibri;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 58px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field-root,
+.intro-field-root {
+  background-color: #f2f1f433 !important;
+  box-shadow: 0px 0px 0px 1px #d7d5dd inset !important;
+  border-radius: 30px !important;
+  font-family: Calibri !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  color: #fff !important;
+  padding-left: 20px !important;
+}
+
+.field-root {
+  width: 330px;
+}
+
+.intro-field-root {
+  width: 410px;
+}
+
+.field-root:hover {
+  box-shadow: 0px 0px 0px 1px #d7d5dd inset;
+}
+
+.field-root.Mui-focused {
+  box-shadow: 0px 0px 0px 1px #d7d5dd inset;
+}
+
+.update-button-container {
+  margin: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+}
+
+.update-button {
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  padding: 12px 26px 12px 26px;
+  gap: 7px;
+  border-radius: 10px !important;
+  opacity: 0px;
+  color: #fff;
+  text-transform: none !important;
+  box-shadow: 0px 3.04px 18.26px 0px #a852054d !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+.helper-text {
+  color: #fff !important;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,128 @@
+.add-people-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite-people-popup {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.popup-title {
+  color: #fff;
+  text-align: left;
+}
+
+.input-field {
+  height: 48px;
+  border-radius: 30px;
+  opacity: 0px;
+  color: #ffffff33;
+  box-shadow: 0px 0px 0px 1px #d7d5dd inset;
+}
+
+.email-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.email-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 32px;
+  padding: 0px 8px 0px 8px;
+  border-radius: 20px;
+  opacity: 0px;
+  background: #e9e1ff;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.email-text {
+  margin-top: 3px;
+  flex-grow: 1;
+}
+
+.remove-button {
+  color: #ff4d4d;
+}
+
+.suggestions {
+  margin: 10px 0;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.suggestion-avatar {
+  margin-right: 10px;
+}
+
+.suggestion-name {
+  flex-grow: 1;
+}
+
+.suggestion-checkbox {
+  margin-left: auto;
+}
+
+.access-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.send-button {
+  height: 38px;
+  padding: 14px 30px 14px 30px;
+  gap: 0px;
+  border-radius: 7992px !important;
+  opacity: 0px;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 100%);
+  color: #ffffff !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+@media (max-width: 600px) {
+  .invite-people-popup {
+    padding: 10px;
+  }
+
+  .input-field {
+    margin-bottom: 5px;
+  }
+
+  .email-item,
+  .suggestion-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .remove-button {
+    margin-top: 5px;
+  }
+}

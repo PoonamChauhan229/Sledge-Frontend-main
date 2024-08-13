@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px !important;
+}
+
+.help {
+  padding-left: 15px !important;
+  padding-top: 15px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.help-box {
+  padding-top: 40px;
+  padding-left: 6px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.file-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.help-content {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.help-heading {
+  font-family: Calibri;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  line-height: 30px;
+  text-align: left;
+}
+
+.help-description {
+  p {
+    color: #ababab;
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+.start-card .root {
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  /* padding-top: 10px; */
+  background-image: url("../../../assets/Ellipse\ 5.png"),
+    url("../../../assets/CornerIcon.png"),
+    url("../../../assets/Group\ 39770.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right bottom, right bottom;
+  /* background-size: 130px, 130px, 130px; */
+  background-size: 205px, 130px, 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff !important;
+}
+
+.description {
+  font-size: 12px;
+  text-align: left;
+  color: #ababab;
+  margin-top: 0px !important;
+  margin-bottom: 18px;
+}
+
+.start-card {
+  width: 49%;
+  height: 248px;
+  border-radius: 20px !important;
+  font-family: Calibri !important;
+  padding: 0;
+}
+
+.card-1 {
+  display: flex;
+  padding-right: 10px;
+}
+
+.line {
+  width: 130px;
+  height: 5px;
+  background: #3ce0d8;
+  margin-bottom: 10px;
+}
+
+.card2-root {
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  padding-top: 30px;
+  background-image: url("../../../assets/Ellipse\ 5.png"),
+    url("../../../assets/CornerIcon.png"),
+    url("../../../assets/Group\ 39770.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right bottom, right bottom;
+  /* background-size: 130px, 130px, 130px; */
+  background-size: 205px, 130px, 180px;
+}
+
+.card-2 {
+  display: flex;
+  padding-right: 10px;
+}
+
+.button {
+  height: 50px;
+  width: 160px;
+  border-radius: 96px !important;
+  text-transform: capitalize !important;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  font-family: Calibri !important;
+  /* font-weight: 700 !important; */
+  text-align: center;
+
+  span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.help-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.violation-btn {
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  width: 280px;
+  height: 52px;
+  padding: 0px 80px 0px 80px;
+  gap: 10px;
+  border-radius: 12px !important;
+  text-transform: none !important;
+
+  span {
+    color: #ffffff;
+  }
+}
+
+.learn-card {
+  width: 350px;
+  /* Set a fixed width for each card */
+  height: 200px;
+  margin-right: 16px;
+  border-radius: 20px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+.learn-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.learn-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 96px !important;
+  text-transform: capitalize !important;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  font-weight: 700 !important;
+  text-align: center;
+
+  span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.card2-content {
+  margin-top: 25px;
+}
+
+.card2-content-learn {
+  margin-left: 50px;
+}
+
+.card2-root-learn {
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  padding-top: 30px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right bottom, right bottom;
+  background-size: 130px, 130px, 130px;
+}
+
+.learn-description {
+  font-size: 11px;
+  text-wrap: wrap;
+  text-align: left;
+  color: #ababab;
+}
+
+.card-2-learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.faq-content {
+  margin-top: 0px;
+}

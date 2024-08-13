@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #494848c9 !important;
+  width: 800px;
+  height: 700px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 32px;
+}
+
+.background-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.background-card.selected {
+  transform: scale(1.05);
+}
+
+.selected-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #4caf50;
+  font-size: 24px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 6px;
+}
+.modal-actions button {
+  width: 231px;
+  background: linear-gradient(180deg, #01e5d4 0%, #137aea 83%);
+  color: #fff;
+  text-transform: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.image-container-scrollable {
+  margin-top: 40px;
+  max-height: 250px;
+  overflow-y: auto;
+  background: #111111;
+  border-radius: 15px;
+}
+
+.image-container {
+  padding: 10px;
+}

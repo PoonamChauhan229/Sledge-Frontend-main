@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navigation {
+  padding-top: 25px;
+}
+
+.tab-container {
+  display: flex;
+  align-items: center;
+  gap: 1;
+  color: white;
+
+  span {
+    padding-left: 15px;
+  }
+}
+
+.icon-container {
+  padding-top: 5px;
+  width: 72px;
+  height: 62px;
+  border-radius: 6px;
+}
+
+.css-c3xyaa-MuiButtonBase-root-MuiTab-root {
+  /* border-radius: #1b1b1b; */
+  border: 1px solid #6d6d6d !important;
+  box-shadow: 0 0 8px #6d6d6d;
+}

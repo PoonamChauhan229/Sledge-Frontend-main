@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Calibri" !important;
+  src: url("../../../../../assets/calibre/CalibreRegular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.add-people-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Calibri;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46.4px;
+  text-align: left;
+  text-transform: none;
+  padding-top: 50px;
+}
+
+.add-people-container .people-header-container {
+  padding: 16px !important;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addPeers-button {
+  width: 170px !important;
+  height: 48px !important;
+  padding: 13.45px 43px 12.55px 43px !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  background: #137aea !important;
+  color: #edf1fa !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: "Calibri";
+}
+
+.search-field {
+  height: 52px;
+  gap: 50px;
+  border-radius: 12px 0px 0px 0px;
+  border: 0.25px 0px 0px 0px;
+  opacity: 0px;
+  border: 0.25px solid #f2f2f2 !important;
+  box-shadow: 0px 0px 80px 0px #000000;
+  border-radius: 14px !important;
+  background: #111111;
+}
+
+.search-field input {
+  color: #8c8f9f;
+}
+
+.add-people-container .participants-list {
+  height: 63vh;
+  color: #ffffff8f;
+  font-family: Calibri !important;
+}
+
+.in-meeting-text {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.participants-text {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}

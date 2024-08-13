@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../../../assets/calibre/CalibreRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.modal {
+  z-index: 1300 !important;
+}
+
+.notification-modal-box {
+  position: fixed;
+  top: 10%;
+  left: 72%;
+  width: 400px;
+  box-shadow: 0px 4px 25px 0px #ffffff40;
+  border-radius: 9px !important;
+  padding: 16px;
+  background: #111111 !important;
+  color: #ffffff;
+}
+
+.notification-item,
+.post-notification {
+  background-color: #111111;
+  color: white;
+  padding: 11px !important;
+  border-radius: 16px 8px !important;
+  position: relative;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+
+.notification-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.notification-contents {
+  font-size: 0.875rem;
+  z-index: 1300 !important;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 9px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.notification-left-bar {
+  width: 5px;
+  background-color: #00aaff;
+  border-radius: 5px 0 0 5px;
+  margin-right: 10px;
+}
+
+.notification-contents,
+.post-notification-content {
+  flex-grow: 1 !important;
+  background: #111111;
+  padding: 13px !important;
+}
+
+.notification-title {
+  font-weight: bold;
+}
+
+.notification-message {
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  margin-right: 5px;
+  color: #00aaff;
+}
+
+.notification-text {
+  color: #00aaff;
+}
+
+.notification-time {
+  color: grey;
+}
+
+.notification-close-button {
+  color: grey !important;
+}
+
+/* .unread {
+  background-color: #f0f8ff;
+} */
+
+.upcoming-event-notification {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 12px !important;
+  border-radius: 16px 8px !important;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.upcoming-event-notification::after,
+.notification-item::after,
+.post-notification::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+}
+
+.upcoming-event-notification::after {
+  background: #FDB72B;
+}
+
+.notification-item::after {
+  background: #4ADE80;
+}
+
+.post-notification::after {
+  background: linear-gradient(to bottom, #01e5d4, #137aea);
+}
+
+/* 
+.notification-meeting-item::after {
+  background: #4ADE80;
+} */
+/* 
+.notification-event-item::after {
+  background: #7089FB;
+} */
+
+.notification-content {
+  flex-grow: 1 !important;
+  background-color: #1e1e1e !important;
+  padding: 15px !important;
+}
+
+.event-time {
+  color: #fb923c !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin-bottom: 4px !important;
+  font-family: "Calibri" !important;
+}
+
+.user-name {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-bottom: 2px !important;
+}
+
+.event-title {
+  font-size: 14px !important;
+  opacity: 0.8;
+  margin-bottom: 2px !important;
+}
+
+.timestamp {
+  font-size: 12px !important;
+  opacity: 0.6;
+  margin-left: 18px !important;
+}
+
+.close-button {
+  color: white !important;
+  /* padding: 5px !important;
+  margin: 18px !important; */
+}
+
+.close-button .MuiSvgIcon-root {
+  font-size: 16px;
+}

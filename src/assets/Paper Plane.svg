@@ -1,0 +1,17 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <rect width="72" height="72" rx="16" fill="#111111"/>
+    </g>
+    <g transform="translate(16.5, 17)"> <!-- Adjusted position to center the smaller SVGs within the larger SVG -->
+        <path d="M19 0C13.9609 -6.00908e-08 9.12816 2.00178 5.56497 5.56497C2.00178 9.12816 4.40533e-07 13.9609 0 19C-4.40533e-07 24.0391 2.00178 28.8718 5.56497 32.435C9.12816 35.9982 13.9609 38 19 38L19 19V0Z" fill="url(#paint0_linear_950_6711)"/>
+    </g>
+    <g transform="translate(35.5, 17)"> <!-- Adjusted position to center the smaller SVGs within the larger SVG -->
+        <path d="M-1.90735e-06 38C5.03911 38 9.87184 35.9982 13.435 32.435C16.9982 28.8718 19 24.0391 19 19C19 13.9609 16.9982 9.12817 13.435 5.56498C9.87184 2.00178 5.03912 2.5942e-06 5.22941e-06 2.15366e-06L-2.46316e-07 19L-1.90735e-06 38Z" fill="#D8FFFC"/>
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear_950_6711" x1="19" y1="0" x2="19" y2="38" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#01E5D4"/>
+            <stop offset="0.83" stop-color="#137AEA"/>
+        </linearGradient>
+    </defs>
+</svg>
